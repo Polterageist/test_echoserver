@@ -18,5 +18,5 @@ Echo-сообщение из комнаты рассылается всем кл
 # Спецификация
 Артефактом сборки проекта будет консольное приложение под названием TestEchoServer.exe. Возможные способы запуска:
 "TestEchoServer.exe", "TestEchoServer.exe help" - выдает справку
-"TestEchoServer.exe client <room> <name> [-address=127.0.0.1:7878]" - запускает приложение в режиме клиента
-"TestEchoServer.exe server <-address=0.0.0.0:7878>" - запускает приложение в режиме сервера
+"TestEchoServer.exe client <room> <name> [--address 127.0.0.1:7878]" - запускает приложение в режиме клиента
+"TestEchoServer.exe server [--address 0.0.0.0:7878]" - запускает приложение в режиме сервера

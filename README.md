@@ -15,8 +15,7 @@ Echo-сообщение из комнаты рассылается всем кл
 Проект должен открываться в Visual Studio 2015.
 Проект может быть размещен на GitHub/GitLab/Bitbacket и т.д. или отправлен Zip-архивом.
 
-# Спецификация
-Артефактом сборки проекта будет консольное приложение под названием TestEchoServer.exe. Возможные способы запуска:
-"TestEchoServer.exe", "TestEchoServer.exe help" - выдает справку
-"TestEchoServer.exe client <room> <name> [--address 127.0.0.1:7878]" - запускает приложение в режиме клиента
-"TestEchoServer.exe server [--address 0.0.0.0:7878]" - запускает приложение в режиме сервера
+# Использование
+"TestEchoServer.exe" - запускает сервер на порту 7878
+"TestEchoServer.exe --help" - выдает справку
+"TestEchoServer.exe --port <port>" - запускает сервер на порту <port>
